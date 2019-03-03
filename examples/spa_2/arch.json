@@ -1,0 +1,39 @@
+{
+    "name": "arch",
+    "items": [
+        {
+            "name": "webserver"
+        },
+        {
+            "name": "website",
+            "sits_on": "webserver",
+            "depends_on": [
+                "api",
+                "authapi"
+            ]
+        },
+        {
+            "name": "apiserver"
+        },
+        {
+            "name": "api",
+            "sits_on": "apiserver",
+            "depends_on": [
+                "database",
+                "authapi"
+            ]
+        },
+        {
+            "name": "database",
+            "sits_on": "apiserver"
+        },
+        {
+            "name": "authserver"
+        },
+        {
+            "name": "authapi",
+            "sits_on": "authserver",
+            "depends_on": "database"
+        }
+    ]
+}
