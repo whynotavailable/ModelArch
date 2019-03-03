@@ -1,0 +1,20 @@
+{
+  "name": "modelarch",
+  "version": "1.0.0",
+  "description": "This is ModelArch, a system for modeling complex architecture. Providing descriptive image generation, as well as change management. In our case, change management is taking a A and B architectures, and proving a plan to go from A to B.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whynotavailable/ModelArch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whynotavailable/ModelArch/issues"
+  },
+  "homepage": "https://github.com/whynotavailable/ModelArch#readme"
+}
