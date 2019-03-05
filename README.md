@@ -12,9 +12,6 @@ This system is written in nodejs specifically to make it easy for people to inte
 of the system isn't actually needed for ModelArch itself to have value, I wanted to make it as easy as possible to use.
 Nodejs is very easy to install on most systems.
 
-The images we generate use SVG as the standard. This is simply because it's super easy to generate SVG images with exact
-specification.
-
 We use MIT as the license, because that'll make it as easy as possible for enterprises to adopt.
 
 ## What's Coming
