@@ -19,4 +19,6 @@ We use MIT as the license, because that'll make it as easy as possible for enter
 
 ## What's Coming
 
+A graphical editor which uses electron to create/edit the files.
+
 Pretty much what I said on the tin. This is a relatively big project, and will take a large portion of this year to produce.
